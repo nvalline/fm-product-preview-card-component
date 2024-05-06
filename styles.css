@@ -1,0 +1,22 @@
+/* Box Sizing Rules */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Remove Default Spacing */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}/*# sourceMappingURL=styles.css.map */
