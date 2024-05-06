@@ -18,5 +18,28 @@ body {
 }
 
 body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: hsl(30, 38%, 92%);
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.card {
+  width: 343px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card__img {
+  height: 240px;
+  width: 100%;
+  background-image: url("./images/image-product-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card__content {
+  padding: 1.5rem;
 }/*# sourceMappingURL=styles.css.map */
