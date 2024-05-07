@@ -35,19 +35,39 @@ body {
 	border-radius: 10px;
 	overflow: hidden;
 
+	@media (min-width: $desktop) {
+		width: 600px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
 	&__img {
 		height: 240px;
 		width: 100%;
 		background-image: url('./images/image-product-mobile.jpg');
 		background-repeat: no-repeat;
 		background-size: contain;
+
+		@media (min-width: $desktop) {
+			height: 450px;
+			width: 100%;
+			background-image: url('./images/image-product-desktop.jpg');
+		}
 	}
 
 	&__content {
 		padding: 1.5rem;
 
+		@media (min-width: $desktop) {
+			padding: 2rem;
+		}
+
 		&___details {
 			margin-bottom: 1.5rem;
+
+			@media (min-width: $desktop) {
+				margin-bottom: 1.8125rem;
+			}
 
 			h1 {
 				margin-bottom: 1rem;
@@ -56,6 +76,10 @@ body {
 				font-weight: $fw-bold;
 				line-height: 1;
 				color: $darkBlue;
+
+				@media (min-width: $desktop) {
+					margin-bottom: 1.5rem;
+				}
 			}
 
 			h2 {
@@ -66,6 +90,10 @@ body {
 				letter-spacing: 5px;
 				color: $grayBlue;
 				text-transform: uppercase;
+
+				@media (min-width: $desktop) {
+					margin-bottom: 1.25rem;
+				}
 			}
 
 			p {
@@ -83,6 +111,10 @@ body {
 			align-items: center;
 			justify-content: flex-start;
 			gap: 1.1875rem;
+
+			@media (min-width: $desktop) {
+				margin-bottom: 1.875rem;
+			}
 
 			.discPrice {
 				font-family: $font-fraunces;
@@ -110,6 +142,13 @@ body {
 			gap: 0.725625rem;
 			border-radius: 8px;
 			background-color: $darkCyan;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $darkerCyan;
+				cursor: pointer;
+			}
 
 			p {
 				font-family: $font-montserrat;

@@ -1,5 +1,6 @@
 // Primary Colors
 $darkCyan: hsl(158, 36%, 37%);
+$darkerCyan: hsl(158, 42%, 18%);
 $cream: hsl(30, 38%, 92%);
 
 // Neutral Colors
@@ -22,3 +23,7 @@ $overline: 0.75rem;
 // Font-Weight
 $fw-bold: 700;
 $fw-md: 500;
+
+// Breakpoints
+$tablet: 48em;
+$desktop: 64em;
