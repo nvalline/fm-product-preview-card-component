@@ -45,5 +45,78 @@ body {
 
 	&__content {
 		padding: 1.5rem;
+
+		&___details {
+			margin-bottom: 1.5rem;
+
+			h1 {
+				margin-bottom: 1rem;
+				font-family: $font-fraunces;
+				font-size: $display;
+				font-weight: $fw-bold;
+				line-height: 1;
+				color: $darkBlue;
+			}
+
+			h2 {
+				margin-bottom: 0.75rem;
+				font-family: $font-montserrat;
+				font-size: $overline;
+				font-weight: $fw-md;
+				letter-spacing: 5px;
+				color: $grayBlue;
+				text-transform: uppercase;
+			}
+
+			p {
+				font-family: $font-montserrat;
+				font-size: $body;
+				font-weight: $fw-md;
+				line-height: 1.643;
+				color: $grayBlue;
+			}
+		}
+
+		&___price {
+			margin-bottom: 1.25rem;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			gap: 1.1875rem;
+
+			.discPrice {
+				font-family: $font-fraunces;
+				font-size: $display;
+				font-weight: $fw-bold;
+				line-height: 1;
+				color: $darkCyan;
+			}
+
+			.regPrice {
+				font-family: $font-montserrat;
+				font-size: 0.8125rem;
+				font-weight: $fw-md;
+				text-decoration: line-through;
+				color: $grayBlue;
+			}
+		}
+
+		&___btn {
+			width: 100%;
+			padding: 0.9375rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.725625rem;
+			border-radius: 8px;
+			background-color: $darkCyan;
+
+			p {
+				font-family: $font-montserrat;
+				font-size: $btnText;
+				font-weight: $fw-bold;
+				color: $white;
+			}
+		}
 	}
 }

@@ -42,4 +42,68 @@ body {
 }
 .card__content {
   padding: 1.5rem;
+}
+.card__content___details {
+  margin-bottom: 1.5rem;
+}
+.card__content___details h1 {
+  margin-bottom: 1rem;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: hsl(212, 21%, 14%);
+}
+.card__content___details h2 {
+  margin-bottom: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+}
+.card__content___details p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.643;
+  color: hsl(228, 12%, 48%);
+}
+.card__content___price {
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.1875rem;
+}
+.card__content___price .discPrice {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: hsl(158, 36%, 37%);
+}
+.card__content___price .regPrice {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+.card__content___btn {
+  width: 100%;
+  padding: 0.9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.725625rem;
+  border-radius: 8px;
+  background-color: hsl(158, 36%, 37%);
+}
+.card__content___btn p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=styles.css.map */
