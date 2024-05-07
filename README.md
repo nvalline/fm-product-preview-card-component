@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/product-preview-card-with-flex-and-grid-n-hlIIDN-S)
 - Live Site URL: [Here](https://nv-product-preview-card.netlify.app)
 
 ## My process
